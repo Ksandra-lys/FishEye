@@ -258,7 +258,7 @@
 		{
 			"id": 23425523,
 			"photographerId": 527,
-			"title": "/assets/medias/Bridge into the Forest",
+			"title": "Bridge into the Forest",
 			"image": "/assets/medias/Travel_Bridge_into_Forest.jpg",
 			"likes": 34,
 			"date": "2016-04-05",
@@ -285,7 +285,7 @@
 		{
 			"id": 34513453,
 			"photographerId": 527,
-			"title": "Shaw Potrait",
+			"title": "Shaw Portrait",
 			"image": "/assets/medias/Portrait_Shaw.jpg",
 			"likes": 52,
 			"date": "2017-04-21",
@@ -331,7 +331,7 @@
 		{
 			"id": 2525345343,
 			"photographerId": 243,
-			"title": "Wednesday Potrait",
+			"title": "Wednesday Portrait",
 			"image": "/assets/medias/Portrait_Wednesday.jpg",
 			"likes": 34,
 			"date": "2019-04-07",
@@ -436,7 +436,7 @@
 			"likes": 53,
 			"date": "2019-06-20",
 			"price": 60
-		},
+		}, 
 		{
 			"id": 235234343,
 			"photographerId": 195,

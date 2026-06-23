@@ -1,83 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import url("/styles/infoPhotographer.css");
+@import url("/styles/infoPhotographer.css"); 
 :root{
+    --font: "DM Sans", sans-serif;
     --primary-color: #901C1C;
     --secondary-color: #D3573C;
-    --tertiary-color: #DB8876;
-    --font:"DM Sans", "sans-serif";
-    --padding-lr: 110px;
-    --border-radius: 3px;
+    --border-radius : 3px;
 }
-
 *{
     box-sizing: border-box;
 }
-html,body{
+html,body{  
     padding: 0;
     margin: 0;
     font-family: var(--font);
     font-optical-sizing: auto;
     font-style: normal;
-    padding-bottom: 50px;
-}
-header{
-    display: flex;
-    color: var(--primary-color);
-    justify-content: space-between;
-    /*align-items: center;*/
-    
-    padding-left: var(--padding-lr);
-    padding-right: var(--padding-lr);
-    
-} & img{
-    width: 150px;
-} & p{
-    font-size: 25px;
 }
 
-.profiles-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 100px;
-    row-gap: 100px;
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
-.profiles-container a{
-    text-decoration: none;
-    color: black;
-}
-.profile-card{
+
+/***DEBUT DU HEADER*/
+.header_photographer{
+    display: flex;
+    justify-content: space-between; 
+    height: 10vh;
     text-align: center;
-} 
-.photo{
+    align-items: center; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    width: 120px;
+    height: 35px;
+}
+h1{
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--primary-color);
+    
+}
+/**FIN DU HEADER**/
+
+/**DEBUT DU MAIN*/
+.profiles_container{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 150px;
+    align-items: center;
+}
+
+.profile_card{
+    text-align: center;
+}
+
+.profile_card img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    
+    box-shadow: 1px 2px 5px #888888;
 }
-.profile-card h2{
-    color: var(--secondary-color);
-}
-.profile-description{
+
+.profile_description{
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    gap: 5px;
+    padding-top: 8px;
 }
 .name{
-    color: var(--secondary-color);
-    font-size: 28px;
+    font-size: 26px;
+    color: #D3573C;
 }
 .location{
     color: var(--primary-color);
-    font-size: 14px;
-    
+    font-size: 10px;
 }
-.description{
-    font-size: 14px;
-    font-weight: 400;
+.tagline{
+    color: #000000;
+    font-size: 10px;
+    font-weight: 500;
 }
-.price{
-    font-size: 14px;
+.profile_description .price{
+    font-size: 10px;
     font-weight: 200;
+    color: #757575;
 }
+
+.profile_information{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+/***FIN DU MAIN***/

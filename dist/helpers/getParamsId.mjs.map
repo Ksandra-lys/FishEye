@@ -1,0 +1,1 @@
+{"version":3,"file":"getParamsId.mjs","sourceRoot":"","sources":["../../src/helpers/getParamsId.mts"],"names":[],"mappings":"AAAA,MAAM,UAAU,WAAW;IACvB,MAAM,MAAM,GAAG,IAAI,eAAe,CAAC,MAAM,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAA;IAC1D,MAAM,EAAE,GAAG,MAAM,CAAC,MAAM,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAA;IACnC,OAAO,EAAE,CAAA;AACb,CAAC"}

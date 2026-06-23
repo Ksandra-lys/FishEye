@@ -2,42 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="/styles/index.css" />
-  <link rel="stylesheet" href="/styles/infoPhotographer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/infoPhotographer.css" />
 </head>
 
 <body>
-  <header>
-    <img src="/assets/images/logo.png" alt="Logo de FishEye" />
-    <div class="header_container"></div>
-  </header>
-  <main class="photographer-container">
-    <div class="custom-select">
-      <label for="tri"> Trier par </label>
-      <select name="tri" alt="">
-        <option value="popularite">Popularité</option>
-        <option value="date">Date</option>
-        <option value="titre">Titre</option>
-      </select>
+    <div id="infophotographer_container">
+        <header class="header_infophotographer">
+
+        </header>
 
     </div>
-    <div class="media-container"></div>
-    <div class="modal-container"></div>
-    <div class="lightbox_container">
-      <!--<img src="/assets/icons/left.svg" class="left_arrow" id="prev">
-      <img src="/assets/icons/right.svg" class="right_arrow" id="next">-->
+    <div class="popupBackground">
+
     </div>
-  </main>
+    <main id="main">
+        <div class="sort_container">
+            <div class="sort_label">
+                <span>Trier par :</span> 
+            </div>
+            <div class="dropdown">
+                <div class="dropdown_selected">
+                    Popularité
+                    <img src="/assets/icons/chevron-up.svg" alt="" class="chevron_up">
+                </div>
+                <ul class="dropdown_menu">
+                    <li class="dropdown_option" id="popularity">Popularité</li>
+                    <li class="dropdown_option" id="date">Date</li>
+                    <li class="dropdown_option" id="title">Titre</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="media_container">
+
+        </div>
+        <div class="lightbox_container">
+            
+        </div>
+    </main>
 </body>
 <footer>
-
+    
 </footer>
-<script src="/js/infoPhotographer.js" type="module"></script>
-
+<script src = "/dist/js/infoPhotographer.js" type="module"></script>
 </html>
-
-
-

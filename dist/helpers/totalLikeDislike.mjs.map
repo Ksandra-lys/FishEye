@@ -1,0 +1,1 @@
+{"version":3,"file":"totalLikeDislike.mjs","sourceRoot":"","sources":["../../src/helpers/totalLikeDislike.mts"],"names":[],"mappings":"AACA,MAAM,UAAU,iBAAiB,CAAC,IAAc;IAC5C,MAAM,UAAU,GAAG,IAAI,CAAC,MAAM,CAC/B,CAAC,WAAW,EAAE,KAAK,EAAE,EAAE,CAAC,WAAW,GAAG,KAAK,CAAC,KAAK,EAClD,CAAC,CACF,CAAC;IACF,OAAO,UAAU,CAAA;AACjB,CAAC"}
